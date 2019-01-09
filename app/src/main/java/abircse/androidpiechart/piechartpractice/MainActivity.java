@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
                 .addData(new SimplePieInfo(30, Color.parseColor("#00aaee"), "Medical"))
                 .addData(new SimplePieInfo(18.0f, Color.parseColor("#000000"), "Health"))
                 .drawText(true).textSize(50)
+                .canTouch(true)
                 .duration(2000);
 
         mAnimatedPieView.applyConfig(config);
